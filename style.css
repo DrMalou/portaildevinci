@@ -160,3 +160,21 @@ body
 .ac-container input:checked ~ article.ac-largePR{
 	height: 400px;
 }
+
+#scolarite {
+	background-color: aqua;
+
+}
+#info {
+	background-color: crimson;
+}
+#stage {
+	background-color: orangered;
+}
+#groupe {
+	background-color: slateblue;
+}
+
+#navstage {
+	background-color: darkgrey;
+}

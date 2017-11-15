@@ -9,78 +9,94 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<? require 'menu.php' ?>
+
+
+<br>
+<div id="haut" class="container">
+    <h2  >Portail léonard de Vinci</h2>
+    <div class="well">Tableau de Bord de ...</div>
+
+
+</div>
 <br>
 <div class="row">
 
-<div class="col-md-7">
-    <div class="row">
-        <div class="col-md-2">
-        <img src="img/pdp.jpg" width="125px;" style="margin-left: 15px;">
-        </div>
-        <div class="col-md-10" id="info">
-            <div class="row">
-           <ul>
-               <li>Nom</li>
-               <li>Adresse</li>
-               <li>Tel. Portable</li>
-               <li>Tel. Fixe</li>
-               <li>Mail perso</li>
-               <li>Mail pro</li>
+    <div class="col-md-7" style="border: 2px solid black;">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="img/pdp.jpg" width="125px;" style="margin-left: 15px;">
+            </div>
+            <div class="col-md-10" id="info">
+                <div class="row">
 
-           </ul>
-                <div><button type="button" class="btn btn-success">Modification</button>
+                    <ul>
+                        <li>Nom</li>
+                        <li>Adresse</li>
+                        <li>Tel. Portable</li>
+                        <li>Tel. Fixe</li>
+                        <li>Mail perso</li>
+                        <li>Mail pro</li>
 
-                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Détails
-                    </button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">Identifiant</a>
-                        <a class="dropdown-item" href="#">Num Badge</a>
-                        <a class="dropdown-item" href="#">Id administratif</a>
+                    </ul>
+                    <div><button type="button" class="btn btn-success">Modification</button>
 
+                        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Détails
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Identifiant</a>
+                            <a class="dropdown-item" href="#">Num Badge</a>
+                            <a class="dropdown-item" href="#">Id administratif</a>
+
+                        </div>
                     </div>
+
                 </div>
-
+            </div>
         </div>
-        </div>
-    </div>
-    <br>
-    <div class="col-md-12" id="scolarite" style="margin-left: 15px;">
-        <h1>Scolarité</h1>
-        <table class="table table-bordered">
-            <thead>
-            <tr>
-                <th scope="col">Programme</th>
-                <th scope="col">Axe et niveau</th>
-                <th scope="col">Date de début</th>
-                <th scope="col">Date de fin</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">PAIIMWB2</th>
-                <td>ANNEE 2 - AXE DEVELOPPEMENT WEB</td>
-                <td>2016</td>
-                <td>2017</td>
-            </tr>
-            <tr>
-                <th scope="row">PARPANS1</th>
-                <td>RESTART POST BAC</td>
-                <td>2017</td>
-                <td>2018</td>
-            </tr>
-
-            </tbody>
-        </table>
         <br>
-    </div>
-</div>
+        <div class="col-md-12" id="scolarite" style="margin-left: 15px;">
+            <h1>Scolarité</h1>
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <th scope="col">Programme</th>
+                    <th scope="col">Axe et niveau</th>
+                    <th scope="col">Date de début</th>
+                    <th scope="col">Date de fin</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">PAIIMWB2</th>
+                    <td>ANNEE 2 - AXE DEVELOPPEMENT WEB</td>
+                    <td>2016</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <th scope="row">PARPANS1</th>
+                    <td>RESTART POST BAC</td>
+                    <td>2017</td>
+                    <td>2018</td>
+                </tr>
 
-    <div class="col-md-5" id="stage">
+                </tbody>
+            </table>
+            <br>
+        </div>
+    </div>
+
+    <div class="col-md-5" id="stage" style="border: solid 3px darkorange">
         <h2>Offres de stage</h2>
         <nav class="navbar navbar-expand-lg" id="navstage">
 
@@ -147,77 +163,92 @@
             </tbody>
         </table>
     </div>
+
+
+
+
 </div>
 <br>
 <div class="col-md-12 row" id="groupe" style="margin-left: 15px;">
     <div class="col-md-6">
-    <h3>Groupes :</h3>
-    <ul class="list-group">
-        <li class="list-group-item list-group-item-primary">IIM-2-DW-1</li>
-        <li class="list-group-item list-group-item-success">SK26</li>
-        <li class="list-group-item list-group-item-danger">MIIMLV210117 COURS LV AN14</li>
-        <li class="list-group-item list-group-item-warning">MMIASPS-0017 - MUSA</li>
-        <li class="list-group-item list-group-item-info">COOP10</li>
+        <h3>Groupes :</h3>
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-primary">IIM-2-DW-1</li>
+            <li class="list-group-item list-group-item-success">SK26</li>
+            <li class="list-group-item list-group-item-danger">MIIMLV210117 COURS LV AN14</li>
+            <li class="list-group-item list-group-item-warning">MMIASPS-0017 - MUSA</li>
+            <li class="list-group-item list-group-item-info">COOP10</li>
 
-    </ul>
+        </ul>
     </div>
     <div class="col-md-6">
-        <h3>Associations étudiantes</h3>
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">Association</th>
-                <th scope="col">Année scolaire</th>
-                <th scope="col">Fonction</th>
+        <div style="border: solid 1px black">
+            <h3>Associations étudiantes</h3>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Association</th>
+                    <th scope="col">Année scolaire</th>
+                    <th scope="col">Fonction</th>
 
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">AMMA</th>
-                <td>2017-2018</td>
-                <td>Fighter</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">AMMA</th>
+                    <td>2017-2018</td>
+                    <td>Fighter</td>
 
-            </tr>
-            <tr>
-                <th scope="row">Kickers</th>
-                <td>2018-2019</td>
-                <td>President</td>
+                </tr>
+                <tr>
+                    <th scope="row">Kickers</th>
+                    <td>2018-2019</td>
+                    <td>President</td>
 
-            </tr>
+                </tr>
 
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
         <br>
-        <h3>Anglais</h3>
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">Test</th>
-                <th scope="col">Date</th>
-                <th scope="col">Note</th>
-                <th scope="col">Commentaire</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">TOEIC</th>
-                <td>2016</td>
-                <td>21/20</td>
-                <td>Charmant</td>
-            </tr>
-            <tr>
-                <th scope="row">TOEFL</th>
-                <td>2017</td>
-                <td>32/20</td>
-                <td>Ténébreux</td>
-            </tr>
+        <div  style="border: solid 1px black">
+            <h3>Anglais</h3>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Test</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Note</th>
+                    <th scope="col">Commentaire</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">TOEIC</th>
+                    <td>2016</td>
+                    <td>21/20</td>
+                    <td>Charmant</td>
+                </tr>
+                <tr>
+                    <th scope="row">TOEFL</th>
+                    <td>2017</td>
+                    <td>32/20</td>
+                    <td>Ténébreux</td>
+                </tr>
 
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
     </div>
-
 </div>
 
 </body>
 </html>
+
+
+
+
+
+
+
+

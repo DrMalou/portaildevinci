@@ -166,23 +166,7 @@ body
 }
 
 <<<<<<< HEAD
-#scolarite {
-	background-color: aqua;
 
-}
-#info {
-	background-color: crimson;
-}
-#stage {
-	background-color: orangered;
-}
-#groupe {
-	background-color: slateblue;
-}
-
-#navstage {
-	background-color: darkgrey;
-}
 >>>>>>> 6a59fb22aab9bf34bd3df683d19722dee3db41b1
 
 
@@ -322,7 +306,26 @@ color: black;
 }
 
 
-
+.titrecours {
+	background-color: #3b5998;
+	text-align: center;
+}
+.bleu {
+	background-color: #3b5998;
+	color: white;
+}
+.groupegauche1 {
+	background-color: #3b5998;
+	color: white;
+}
+.groupegauche2 {
+	background-color: #777777;
+	color: white;
+}
+.pagecours {
+	margin-left: 125px;
+	border: solid 2px #3b5998;
+}
 
 
 
@@ -334,4 +337,3 @@ color: black;
 
 =======
 >>>>>>> 91ff262dd904c62c666d66ffa1bfabe5ede0e174
-

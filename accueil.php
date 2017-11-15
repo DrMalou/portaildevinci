@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -15,6 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+=======
+>>>>>>> d586f968d55627a5b17379c46082c0c9a9a8bec9
 <?php require 'menu.php' ?>
 
 
@@ -26,6 +29,7 @@
 
 </div>
 <br>
+<div class="container">
 <div class="row">
 
     <div class="col-md-7" style="border: 2px solid black;">
@@ -238,7 +242,7 @@
         </div>
     </div>
 </div>
-
+</div>
 </body>
 </html>
 

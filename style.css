@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 91ff262dd904c62c666d66ffa1bfabe5ede0e174
 body
 {
 	background-color: #e9eaed !important;
@@ -6,16 +9,16 @@ body
 
 @font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
 
-    font-family: 'caviar';
+	font-family: 'caviar';
 
-    src: url('font/caviar.ttf');       
+	src: url('font/caviar.ttf');
 
 }
 
 .btn-docs
 {
 	height: 30px;
-	padding-top:  0px !important; 
+	padding-top:  0px !important;
 	margin: 0;
 	font-family: 'caviar';
 	font-size: 17px !important;
@@ -32,7 +35,7 @@ body
 
 .ctn1
 {
-	
+
 	height: 100%;/*100vh*/
 }
 
@@ -69,10 +72,10 @@ body
 	line-height: 23px; /* 33px */
 	font-size: 19px;
 	background: linear-gradient(top, #ffffff 1%,#eaeaea 100%);
-	box-shadow: 
-		0px 0px 0px 1px rgba(155,155,155,0.3), 
-		1px 0px 0px 0px rgba(255,255,255,0.9) inset, 
-		0px 2px 2px rgba(0,0,0,0.1);
+	box-shadow:
+			0px 0px 0px 1px rgba(155,155,155,0.3),
+			1px 0px 0px 0px rgba(255,255,255,0.9) inset,
+			0px 2px 2px rgba(0,0,0,0.1);
 }
 
 .ac-container label:hover{
@@ -85,9 +88,9 @@ body
 	background: #3b5998;
 	color: white;
 	text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
-	box-shadow: 
-		0px 0px 0px 1px rgba(155,155,155,0.3), 
-		0px 2px 2px rgba(0,0,0,0.1);
+	box-shadow:
+			0px 0px 0px 1px rgba(155,155,155,0.3),
+			0px 2px 2px rgba(0,0,0,0.1);
 }
 
 .ac-container label:hover:after,
@@ -98,7 +101,7 @@ body
 	height: 24px;
 	right: 13px;
 	top: 7px;
-	background: transparent url('img/icones/arrow_down2.png') no-repeat center center;	
+	background: transparent url('img/icones/arrow_down2.png') no-repeat center center;
 }
 
 .ac-container input:checked + label:hover:after{
@@ -107,7 +110,7 @@ body
 
 .ac-container input{
 	display: none;
-}	
+}
 
 .ac-container article{
 	background: rgba(255, 255, 255, 0.5);
@@ -116,14 +119,14 @@ body
 	height: 0px;
 	position: relative;
 	z-index: 10;
-	transition: 
-		height 0.3s ease-in-out, 
-		box-shadow 0.6s linear;
+	transition:
+			height 0.3s ease-in-out,
+			box-shadow 0.6s linear;
 }
 .ac-container input:checked ~ article{
-	transition: 
-		height 0.5s ease-in-out, 
-		box-shadow 0.1s linear;
+	transition:
+			height 0.5s ease-in-out,
+			box-shadow 0.1s linear;
 	box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
 }
 
@@ -162,6 +165,7 @@ body
 	height: 400px;
 }
 
+<<<<<<< HEAD
 #scolarite {
 	background-color: aqua;
 
@@ -328,4 +332,6 @@ color: black;
 
 
 
+=======
+>>>>>>> 91ff262dd904c62c666d66ffa1bfabe5ede0e174
 

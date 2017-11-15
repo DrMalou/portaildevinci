@@ -21,21 +21,27 @@
 <div class="row grandblock">
 
 
-
+    
 		<div class="col-md-12 navigation1">
 		  <div class="container"><div class="navbar-header">
-		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-		      <span class="sr-only">Toggle navigation</span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		    </button><a class="navbar-brand" href="#">Portail Leonard De Vinci</a>
-		  </div>
+		    </button><a class="navbar-brand titre1" href="#">Portail Leonard De Vinci</a>
+		  <li class="nav-item dropdown dropdrop">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#"> Mon Profil </a>
+          <a class="dropdown-item" href="#"> Déconnexion </a>
+          <hr>
+          <a class="dropdown-item" href="#"> Aide ? </a>
+        </div>
+      </div>
+
 		  <div class="collapse navbar-collapse" id="navbar-ex-collapse">
 		    <ul class="nav navbar-nav navbar-right">
-		      <li class="active"><a href="#">Mails</a></li>
-		      <li><a href="#">More</a>
-		      </li>
+		      <button class="active"><a class="mails" href="#">Mails</a></button>
+		      <button class="more"><a href="#">More</a>
+		      </button>
 		    </ul>
 		  </div>
 		</div>
@@ -48,14 +54,14 @@
 
 
 
+
+
 <div class="col-md-12 blockcentre">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+          
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            
           </button>
           <a class="navbar-brand" href="#"><span>
             <img src="img/logoiim.png">
@@ -79,48 +85,52 @@
 <br>
 
 
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded supernav">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#"></a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <hr>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Fiche Etudiant<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-link active">
+        <a class="nav-link" href="#"> E.D.T </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Absences </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Notes </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Cours </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Documents </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Stage </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> International </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Rendu pédagogique </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Finances </a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Promotion Ecole </a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
 
-
-<div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="nav nav-pills">
-              <li class="active">
-                <a href="#">Fiche Etudiant</a>
-              </li>
-              <li>
-                <a href="#">Mon E.D.T</a>
-              </li>
-              <li>
-                <a href="#">Absences</a>
-              </li>
-              <li>
-                <a href="">Mes Notes</a>
-              </li>
-              <li>
-                <a href="#">Mes Cours</a>
-              </li>
-              <li>
-                <a href="">Documents</a>
-              <li>
-                <a href="">Stages</a>
-              <li>
-                <a href="">International</a>
-              </li>
-              <li>
-                <a href="">Rendus Pedagogique</a>
-              </li>
-              <li>
-              <a href="">Finances</a>
-            </li>
-
-
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
 

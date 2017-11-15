@@ -21,28 +21,28 @@
 
 
 
-<div class="col-md-12 navigation1">
-  <div class="container"><div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button><a class="navbar-brand" href="#">Portail Leonard De Vinci</a>
-  </div>
-  <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#">Mails</a></li>
-      <li><a href="#">More</a>
-      </li>
-    </ul>
-  </div>
-</div>
-</div>
+		<div class="col-md-12 navigation1">
+		  <div class="container"><div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+		      <span class="sr-only">Toggle navigation</span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		      <span class="icon-bar"></span>
+		    </button><a class="navbar-brand" href="#">Portail Leonard De Vinci</a>
+		  </div>
+		  <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+		    <ul class="nav navbar-nav navbar-right">
+		      <li class="active"><a href="#">Mails</a></li>
+		      <li><a href="#">More</a>
+		      </li>
+		    </ul>
+		  </div>
+		</div>
+		</div>
 
 
-<br>
-<br>
+		<br>
+		<br>
 
 
 
@@ -123,24 +123,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>

@@ -1,0 +1,20 @@
+.titrecours {
+    background-color: #3b5998;
+    text-align: center;
+}
+.bleu {
+    background-color: #3b5998;
+    color: white;
+}
+.groupegauche1 {
+    background-color: #3b5998;
+    color: white;
+}
+.groupegauche2 {
+    background-color: #777777;
+    color: white;
+}
+.pagecours {
+    margin-left: 125px;
+    border: solid 2px #3b5998;
+}

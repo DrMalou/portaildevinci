@@ -27,7 +27,7 @@
 
 
     </div>
-    <div class="col-8">
+    <div class="col-10">
         <h3>IIM - Année 2 - Axe Développement web</h3>
         <table class="table">
             <thead class="thead bleu">
